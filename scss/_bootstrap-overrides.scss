@@ -29,3 +29,33 @@
     box-shadow: 0 0 0 0.2rem rgba(240, 95, 64,.5) !important;
   }
 }
+
+
+.btn-primary-erica {
+  background-color: #585858;
+  border-color: $primary;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $white;
+    background-color: darken($primary, 5%) !important;
+  }
+  &:active,
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba(240, 95, 64,.5) !important;
+  }
+}
+
+.btn-erica {
+  background-color: #d1d0d0;
+  border-color: #d1d0d0;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  display: inline-block;
+  @include sans-serif-font;
+  
+}
